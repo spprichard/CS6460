@@ -1,0 +1,484 @@
+
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "Title was not specified"
+  },
+  "paths": {
+    "/v1/accounts/{account_id}/analytics/terms/{term_id}/activity": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level participation data",
+        "operationId": "get_department_level_participation_data_terms",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "term_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/accounts/{account_id}/analytics/current/activity": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level participation data",
+        "operationId": "get_department_level_participation_data_current",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/accounts/{account_id}/analytics/completed/activity": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level participation data",
+        "operationId": "get_department_level_participation_data_completed",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/accounts/{account_id}/analytics/terms/{term_id}/grades": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level grade data",
+        "operationId": "get_department_level_grade_data_terms",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "term_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/accounts/{account_id}/analytics/current/grades": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level grade data",
+        "operationId": "get_department_level_grade_data_current",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/accounts/{account_id}/analytics/completed/grades": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level grade data",
+        "operationId": "get_department_level_grade_data_completed",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/accounts/{account_id}/analytics/terms/{term_id}/statistics": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level statistics",
+        "operationId": "get_department_level_statistics_terms",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "term_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/accounts/{account_id}/analytics/current/statistics": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level statistics",
+        "operationId": "get_department_level_statistics_current",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/accounts/{account_id}/analytics/completed/statistics": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get department-level statistics",
+        "operationId": "get_department_level_statistics_completed",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "account_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/courses/{course_id}/analytics/activity": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get course-level participation data",
+        "operationId": "get_course_level_participation_data",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "course_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/courses/{course_id}/analytics/assignments": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get course-level assignment data",
+        "operationId": "get_course_level_assignment_data",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "course_id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "description": "If async is true, then the course_assignments call can happen asynch-\nronously and MAY return a response containing a progress_url key instead\nof an assignments array. If it does, then it is the caller's\nresponsibility to poll the API again to see if the progress is complete.\nIf the data is ready (possibly even on the first async call) then it\nwill be passed back normally, as documented in the example response.",
+            "name": "async",
+            "required": false,
+            "type": "boolean"
+          }
+        ]
+      }
+    },
+    "/v1/courses/{course_id}/analytics/student_summaries": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get course-level student summary data",
+        "operationId": "get_course_level_student_summary_data",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "course_id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "description": "The order results in which results are returned.  Defaults to \"name\".",
+            "name": "sort_column",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "description": "If set, returns only the specified student.",
+            "name": "student_id",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/courses/{course_id}/analytics/users/{student_id}/activity": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get user-in-a-course-level participation data",
+        "operationId": "get_user_in_a_course_level_participation_data",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "course_id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "student_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/courses/{course_id}/analytics/users/{student_id}/assignments": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get user-in-a-course-level assignment data",
+        "operationId": "get_user_in_a_course_level_assignment_data",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "course_id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "student_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1/courses/{course_id}/analytics/users/{student_id}/communication": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "No response was specified"
+          }
+        },
+        "description": "",
+        "tags": [
+          "analytics"
+        ],
+        "summary": "Get user-in-a-course-level messaging data",
+        "operationId": "get_user_in_a_course_level_messaging_data",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "course_id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "description": "ID",
+            "name": "student_id",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "host": "canvas.instructure.com",
+  "basePath": "/api",
+  "schemes": [
+    "https"
+  ]
+}
+
